@@ -7,7 +7,6 @@ def twoSum(nums, target):
             return [hash[diff], i]
         hash[n] = i
 
-
 nums = [10,2,3,5]
 target = 7
 

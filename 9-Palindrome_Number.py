@@ -1,6 +1,5 @@
 def isPalindrome(x):
     d = 1
-    #Numbers bellow zero it us not a palindrome.
     if x < 0:
         return False
     
@@ -15,16 +14,6 @@ def isPalindrome(x):
         d /= 100
     return True
 
-
-
 r = 1001
 r = isPalindrome(r)
 print(r)
-
-
-
-        
-    
-
-    
-
