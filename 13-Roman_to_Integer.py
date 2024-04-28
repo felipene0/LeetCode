@@ -18,7 +18,3 @@ def romanToInt(s):
             result += traduction[s[i]]
 
     return result
-
-r = romanToInt('MCMXCIV') #998
-
-print(r)
